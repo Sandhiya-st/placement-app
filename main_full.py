@@ -14,6 +14,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import pickle
 import os
 import hashlib
 from fpdf import FPDF
@@ -356,3 +357,4 @@ if page == "Hosting Guide":
 # ----------------------------
 st.markdown("---")
 st.markdown("Made with ❤️ — Streamlit full app demo. Modify usernames/passwords and secure properly for production.")
+
